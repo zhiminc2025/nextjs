@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-// reset css
-import "@kirklin/reset-css/kirklin.css";
+import Analytics from "~/components/Analytics";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div id="app">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
