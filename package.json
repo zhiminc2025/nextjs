@@ -26,11 +26,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@unocss/postcss": "latest",
+    "@unocss/webpack": "^0.58.5",
     "@vercel/analytics": "^1.1.3",
     "eslint": "^8",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
     "typescript": "^5",
     "unocss": "latest",
     "vitest": "^1.2.2"

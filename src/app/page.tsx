@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello boot-next
+      <div className="text-2xl">
+        Hello boot-next
+      </div>
     </main>
   );
 }
